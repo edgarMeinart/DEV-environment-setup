@@ -1,3 +1,4 @@
 [
-  { "keys": ["super+shift+d"], "command": "goto_definition" }
+  { "keys": ["super+shift+d"], "command": "goto_definition" },
+  { "keys": ["super+shift+k"], "command": "copy_relative_path" }
 ]

@@ -1,0 +1,6 @@
+#!/bin/bash
+
+source ~/.bash_profile > /dev/null
+rvm ruby-2.5.5 > /dev/null
+
+exec bundle exec rubocop "$@"

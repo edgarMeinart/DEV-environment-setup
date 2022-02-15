@@ -1,0 +1,12 @@
+alias turn="git checkout"
+alias turm="git checkout master"
+alias turp="git checkout production"
+alias rebm="git rebase master"
+alias rebp="git rebase production"
+alias resh="git reset --hard"
+alias ress="git reset --soft"
+alias pushc='git push origin $(git rev-parse --abbrev-ref HEAD)'
+alias pushcf='git push origin $(git rev-parse --abbrev-ref HEAD) -f'
+alias fo='git fetch origin'
+alias fcb='git fetch origin  $(git rev-parse --abbrev-ref HEAD)'
+alias gpuoc='git pull origin $(git rev-parse --abbrev-ref HEAD)'
